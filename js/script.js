@@ -46,7 +46,7 @@ const populate = (data) => {
         const rating = document.createElement('label')
         rating.className = 'rating'
         if (coffee.rating !== null) {
-            star.src = 'images/star_fill.svg'
+            star.src = 'images/Star_fill.svg'
             rating.innerHTML = coffee.rating
             const votes = document.createElement('label')
             votes.className = 'votes'
@@ -55,7 +55,7 @@ const populate = (data) => {
             ratingPanel.appendChild(rating)
             ratingPanel.appendChild(votes)
         } else {
-            star.src = 'images/star.svg'
+            star.src = 'images/Star.svg'
             rating.innerHTML = "No ratings"
             ratingPanel.appendChild(star)
             ratingPanel.appendChild(rating)

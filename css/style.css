@@ -69,6 +69,7 @@ main {
     width: 100%;
     height: fit-content;
     padding-bottom: 5rem;
+    position: relative;
     background-color: var(--bg-main);
 }
 
@@ -135,7 +136,7 @@ main {
 
 .menu {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 2rem;
     width: 52.75rem;
@@ -210,9 +211,8 @@ main {
     }
 
     .menu {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 78%;
+        justify-content: space-evenly;
     }
 }
 
@@ -235,7 +235,5 @@ main {
     .menu {
         gap: 3.5rem;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
